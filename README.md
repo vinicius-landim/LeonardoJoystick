@@ -11,6 +11,13 @@ Interface de comunicação HID (Human Interface Device) utilizando um **Arduino 
 - **Resolução de Saída:** 16-bit Signed Integer (-32768 a 32767).
 - **Perfil HID:** `JOYSTICK_TYPE_GAMEPAD`.
 
+## Conexão
+| Componente (Pino) | Arduino Leonardo | Função |
+| :--- | :--- | :--- |
+| **Pino 1** | **GND** | Referência de tensão (0V) |
+| **Pino 2** | **A0** | Sinal de saída |
+| **Pino 3** | **5V** | Alimentação positiva (+5V) |
+
 ## Setup de Software
 
 ### 1. Requisitos
